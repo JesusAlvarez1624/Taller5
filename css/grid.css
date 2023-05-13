@@ -24,7 +24,7 @@ h1{
 .flexContenedor > div{
     
     display: flex;
-    height: 320px;
+    height: 380px;
     width: 30%;
     
     justify-content: center;
