@@ -1,0 +1,87 @@
+*{
+    padding: 0px 0px;
+    margin: 0px;
+
+
+}
+
+body{
+
+    background-color: black ;
+}
+
+h1{
+
+    color: #fff;
+}
+
+
+.flexContenedor{
+    display: flex;
+
+}
+
+.flexContenedor > div{
+    
+    display: flex;
+    height: 350px;
+    width: 30%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gridcontenedor{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.imguno{
+    width: 100%;
+    height: 50%;
+
+}
+
+.imgdos{
+    width: 100%;
+    height: 50%;
+    margin-top: -5px;
+
+}
+
+.gridcontenedor > div{
+
+    height: 500px;
+
+}
+
+.formulario{
+
+    padding: 20px 40px ;
+}
+
+.boton{
+
+    background-color: red;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+
+.imgdiv{
+
+    padding: 0px 0px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.input{
+    margin-bottom: 30px;
+}
+
+.textArea{
+    margin-bottom: 25px;
+}
